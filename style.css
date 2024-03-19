@@ -21,3 +21,24 @@ body {
   margin-top: 10%;
   animation: cambiarColor 1s infinite alternate both;
 }
+
+#fecha {
+  letter-spacing: 10px;
+  font-size: 15px;
+  margin: 10px 0 0 0;
+}
+
+@keyframes cambiarColor {
+  0% {
+    background-color: #fffffc;
+  }
+  30% {
+    background-color: #beb7a4;
+  }
+  65% {
+    background-color: #ff7f11;
+  }
+  95% {
+    background-color: #ff3f00;
+  }
+}
