@@ -8,3 +8,12 @@ const mostrarReloj = () => {
     "fecha"
   ).innerHTML = `${fecha.getDay()}/${fecha.getMonth()}/${fecha.getFullYear()}`;
 };
+
+const formatoHora = (hora) => {
+  if (hora < 10) {
+    hora = "0" + hora;
+  }
+  return hora;
+};
+
+setInterval(mostrarReloj, 1000);
